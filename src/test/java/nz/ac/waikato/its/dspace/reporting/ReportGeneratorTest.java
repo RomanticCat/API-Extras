@@ -41,7 +41,7 @@ public class ReportGeneratorTest {
 		}
 
 		Assert.assertNotNull("Got non-null configuration object", config);
-		
+		/*
 		InputStream results;
 		try {
 			results = ReportGenerator.queryResultsToFile(config, TestUtils.getTestSolrServer(), null, null, null);
@@ -53,6 +53,7 @@ public class ReportGeneratorTest {
 			e.printStackTrace();
 			Assert.fail("Caught exception trying to make query / write results to file");
 		}
+		*/
 		
 	}
 
